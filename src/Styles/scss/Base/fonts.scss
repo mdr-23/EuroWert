@@ -1,0 +1,21 @@
+$font-path: "../.././Fonts/";
+
+@font-face {
+    font-family: 'Capitellum Title';
+    src: url('#{$font-path}capitellium-font/capitellum-tough.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mediamoure';
+    src: url('#{$font-path}mediamoure-font/mediamoure-regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mediamoure Italic';
+    src: url('#{$font-path}mediamoure-font/mediamoure-regularitalic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gothic';
+    src: url('#{$font-path}cloister-black-free-font/cloisterblack.ttf') format('truetype');
+}

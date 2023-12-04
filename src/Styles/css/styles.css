@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Capitellum Title";
+  src: url("../.././Fonts/capitellium-font/capitellum-tough.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Mediamoure";
+  src: url("../.././Fonts/mediamoure-font/mediamoure-regular.otf") format("truetype");
+}
+@font-face {
+  font-family: "Mediamoure Italic";
+  src: url("../.././Fonts/mediamoure-font/mediamoure-regularitalic.otf") format("truetype");
+}
+@font-face {
+  font-family: "Gothic";
+  src: url("../.././Fonts/cloister-black-free-font/cloisterblack.ttf") format("truetype");
+}
+h1 {
+  color: #fff;
+  font-family: "Gothic";
+  font-size: 105px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #000080;
+  font-family: sans-serif;
+  font-size: 26px;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #fff;
+  font-family: "Mediamoure";
+  font-size: 24px;
+}
+
+.p-lastupdate {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: right !important;
+  margin-top: 30px;
+}
+
+.home-intro {
+  background-color: #000080;
+  padding-bottom: 150px;
+}
+
+.cards-topc-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 150px;
+}
+
+.card-currency {
+  background-color: #fff !important;
+}
+.card-currency .currency-to {
+  margin: 0 5px !important;
+  font-family: "Mediamoure";
+  color: #000;
+}
+.card-currency .card-date {
+  font-family: sans-serif;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.card-currency .card-date .date-span {
+  font-weight: bold;
+  font-size: 16px;
+}
+.card-currency .amount {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #000080;
+}
+.card-currency .result {
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffe242;
+  border: 1px solid #000080;
+  background-color: #000080;
+}
+
+th, td {
+  text-align: center !important;
+}
+
+th {
+  font-weight: bold !important;
+  color: #000080 !important;
+}
+
+.euro-row {
+  background-color: #ffe242;
+  color: #fff !important;
+}
+
+/*# sourceMappingURL=styles.css.map */
