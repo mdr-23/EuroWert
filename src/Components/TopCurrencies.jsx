@@ -22,7 +22,7 @@ function TopCurrencies() {
                 }
             } 
             result()
-        },
+        },[]
     )
 
 

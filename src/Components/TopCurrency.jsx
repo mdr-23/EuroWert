@@ -7,6 +7,8 @@ import Typography from '@mui/material/Typography';
 
 function TopCurrency({ amount, base, date, usdRates, gbpRates, flag }) {
 
+    const invertedDate = date && date.split('-').reverse().join('/');
+
     return(
 
         <Card className='card-currency' sx={{ minWidth:220, maxWidth: 275, mx: 2, mt: 5 }}>
@@ -15,7 +17,7 @@ function TopCurrency({ amount, base, date, usdRates, gbpRates, flag }) {
                 {base} <span className='currency-to'>TO</span><img src={flag} width="54" height="38" alt="Country flag" />
             </Typography>
             <Typography className='card-date' color="text.secondary" variant="h5" component="div">
-                Date: <span className='date-span'>{date}</span>
+                Date: <span className='date-span'>{invertedDate}</span>
             </Typography>
             <Typography className='amount' sx={{ mb: 1.5 }} color="text.primary">
                 {amount}€

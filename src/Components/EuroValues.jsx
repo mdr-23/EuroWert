@@ -88,7 +88,7 @@ function EuroValues() {
             </>
             </TableBody>
       </Table>
-      <p className='p-lastupdate'>Last update: {usdData.date}</p>
+      <p className='p-lastupdate'>Last update: {usdData && usdData.date ? usdData.date.split('-').reverse().join('/') : 'No data available'}</p>
     </TableContainer>
     </Container>
 

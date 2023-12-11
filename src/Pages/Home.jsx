@@ -1,4 +1,6 @@
+import EuroConverContainer from "../Components/EuroConvertContainer"
 import EuroValues from "../Components/EuroValues"
+import MainCardsContainer from "../Components/MainCards/MainCardsContainer"
 import TopCurrencies from "../Components/TopCurrencies"
 
 const Home = () => {
@@ -22,6 +24,10 @@ const Home = () => {
         <h2>Euro live exchange rates</h2>
 
         <EuroValues />
+
+        <EuroConverContainer />
+
+        <MainCardsContainer />
 
         </>
         
