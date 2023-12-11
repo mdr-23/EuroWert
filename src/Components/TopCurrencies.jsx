@@ -1,6 +1,7 @@
 import { Container } from '@mui/material'
 import React, { useEffect, useState } from 'react'
 import { getGBP, getUSD } from '../Services/currencyServices'
+import FallDown from './Animations/FallDown'
 import TopCurrency from './TopCurrency'
 
 function TopCurrencies() {
@@ -30,7 +31,8 @@ function TopCurrencies() {
 
     return(
 
-        <Container>
+        <FallDown>
+        <Container sx={{ display:'flex', justifyContent:'center' }}>
             <div className="cards-topc-container">
                 {arrayData.map(data => <TopCurrency amount={data.amount} 
                 base={data.base === "EUR" && <img src="https://flagcdn.com/256x192/eu.png" width="54" height="38" alt="Europe flag" />} 
@@ -38,6 +40,7 @@ function TopCurrencies() {
                 /> )}
             </div>
         </Container>
+        </FallDown>
 
     )
 }

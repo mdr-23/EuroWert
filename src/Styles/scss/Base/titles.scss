@@ -29,3 +29,14 @@ p{
     text-align: right !important;
     margin-top: 30px;
 }
+
+@media screen and (max-width: 431px){
+    h1{
+        @include titles($white, 'Gothic', 60px)
+    }
+
+    p{
+        @include paragraphs($white, 'Mediamoure', 16px)
+    }
+    
+}

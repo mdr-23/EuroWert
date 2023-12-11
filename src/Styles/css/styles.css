@@ -44,6 +44,21 @@ p {
   margin-top: 30px;
 }
 
+@media screen and (max-width: 431px) {
+  h1 {
+    color: #fff;
+    font-family: "Gothic";
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    color: #fff;
+    font-family: "Mediamoure";
+    font-size: 16px;
+  }
+}
 .home-intro {
   background-color: #000080;
   padding-bottom: 150px;
@@ -54,6 +69,14 @@ p {
   justify-content: center;
   position: relative;
   bottom: 150px;
+}
+
+.cards-topc-container {
+  flex-wrap: wrap;
+}
+
+.info-cards {
+  height: 352.02px;
 }
 
 .card-currency {
@@ -136,10 +159,78 @@ label {
 
 .blue-section {
   background-color: #000080;
+  padding-bottom: 50px;
 }
 .blue-section h2 {
   color: #fff;
   padding-top: 50px !important;
+}
+
+.tools-icons {
+  font-size: 100px !important;
+}
+
+.react {
+  color: #61DBFB;
+  margin-right: 50px;
+}
+
+.mui {
+  color: #0288D1;
+  margin-right: 50px;
+}
+
+.sass {
+  color: #F06292;
+  margin-right: 50px;
+}
+
+.framer {
+  color: #000;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .tools-icons {
+    font-size: 40px !important;
+  }
+
+  .react {
+    margin-right: 10px;
+  }
+
+  .mui {
+    margin-right: 10px;
+  }
+
+  .sass {
+    margin-right: 10px;
+  }
+
+  .framer {
+    margin-right: 10px;
+  }
+
+  .frankfurter-img {
+    height: 40px;
+  }
+}
+.footer-list {
+  color: #fff;
+  list-style: none;
+  line-height: 25px;
+}
+
+.p-footer {
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+.footer-link {
+  color: #fff;
+  margin: 0 5px;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

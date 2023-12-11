@@ -1,6 +1,8 @@
 import EuroConverContainer from "../Components/EuroConvertContainer"
 import EuroValues from "../Components/EuroValues"
+import Footer from "../Components/Footer"
 import MainCardsContainer from "../Components/MainCards/MainCardsContainer"
+import Tools from "../Components/Tools"
 import TopCurrencies from "../Components/TopCurrencies"
 
 const Home = () => {
@@ -28,6 +30,10 @@ const Home = () => {
         <EuroConverContainer />
 
         <MainCardsContainer />
+
+        <Tools />
+
+        <Footer />
 
         </>
         

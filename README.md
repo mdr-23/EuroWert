@@ -2,6 +2,10 @@
 
 Welcome to EuroWert, a simple React app demonstrating real-time Euro to various currency exchange rates. This project serves as a showcase of React development skills, providing a straightforward way to check the current value of the Euro against different currencies.
 
+## Frankfurter API
+
+This App is developed with the Frankfurter API services. Check in: https://www.frankfurter.app/
+
 ## Features
 
 - **Real-Time Exchange Rates:** Experience the power of React in fetching and displaying the latest Euro exchange rates in real-time.

@@ -1,0 +1,49 @@
+.tools-icons{
+    font-size: 100px !important;
+}
+
+.react{
+    color: #61DBFB;
+    margin-right: 50px;
+}
+
+.mui{
+    color: #0288D1;
+    margin-right: 50px;
+}
+
+.sass{
+    color: #F06292;
+    margin-right: 50px;
+}
+
+.framer{
+    color: $black;
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 600px){
+    .tools-icons{
+        font-size: 40px !important;
+    }
+
+    .react{
+        margin-right: 10px;
+    }
+    
+    .mui{
+        margin-right: 10px;
+    }
+    
+    .sass{
+        margin-right: 10px;
+    }
+
+    .framer{
+        margin-right: 10px;
+    }
+
+    .frankfurter-img{
+        height: 40px;
+    }
+}
